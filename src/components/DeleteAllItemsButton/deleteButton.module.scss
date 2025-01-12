@@ -1,0 +1,21 @@
+.deleteAllItemsButton {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	padding: 10px;
+	width: calc(200px + 100 * (100vw / 1440));
+	background-color: white;
+	color: #5f7171;
+	font: 15px Roboto;
+	border-radius: 8px;
+	border: 1px solid #5f7171;
+	box-shadow: 0 1px 2px 0 rgba(16, 24, 40, .5);
+
+	&:hover {
+		cursor: pointer;
+		background-color: #efefef;
+		transition: .2 ease-in;
+		will-change: transform;
+	}
+}

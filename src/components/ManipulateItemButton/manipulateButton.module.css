@@ -1,0 +1,14 @@
+.manipulateButton {
+  width: 16px;
+  height: 16px;
+  background: none;
+  padding: 0;
+  margin: 0;
+  justify-self: flex-end;
+}
+.manipulateButton:hover {
+  cursor: pointer;
+}
+.manipulateButton:hover > svg path {
+  fill: #176662;
+}
